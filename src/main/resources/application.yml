@@ -1,0 +1,13 @@
+
+spring:
+  datasource:
+    password: root12345
+    url: jdbc:mysql://Localhost:3306/employeemanager?allowPublicKeyRetrieval=true&useSSL=false
+    username: root
+  jpa:
+    hibernate:
+      ddl-auto: create
+    properties:
+      hibernate: dialect:org.hibernate.dialect.MySQL8Dialect
+      format_sql: true
+show-sql: true
